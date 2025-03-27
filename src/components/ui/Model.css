@@ -1,0 +1,23 @@
+.modelBackdrop{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    background-color: rgba(50,50,50,0.5);
+} 
+.modelContent{
+    z-index: 2;
+    background-color: #fff;
+    position: fixed;
+    max-width: 1280px;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    top: 10%;
+    max-height:700PX;
+    height: 75%;
+    overflow: auto;
+    padding: 1rem;
+    border-radius: .5rem;
+
+}
